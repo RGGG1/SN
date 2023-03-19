@@ -192,9 +192,8 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('../images/wedding-cake-topper.jpg') no-repeat center center;
-    height: 300px;
-    width: 300px;
+    background: url('../images/fruit-tart.jpg') no-repeat center center;
+    height: 100%;
     border-radius: 50%;
 }
 
