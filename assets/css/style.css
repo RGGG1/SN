@@ -102,13 +102,13 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
 
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(22, 160, 133, .7);
 
     bottom: 30px;
     right: 150px;
