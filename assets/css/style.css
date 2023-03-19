@@ -28,6 +28,14 @@ h1, h2 {
     margin-left: 30px;
 }
 
+#courses-text {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    margin-left: 30px;
+    position: relative;
+}
+
 /* nav links */
 
 #menu {
@@ -213,6 +221,15 @@ hr {
 
 /* Courses */
 
+#course101 {
+    width: 100%;
+    padding-left: 10px;
+    text-align: left;
+    overflow: hidden;
+    margin: 10px;
+    float: left;
+}
+
 #courses {
     background-image: url(../images/angry-birds-sweets.jpg);
     background-repeat: no-repeat;
@@ -352,8 +369,8 @@ footer {
 }
 
 .join-button {
-    margin-top: 20px;
-    border-radius: 2px;
+    margin-top: 10px;
+    border-radius: 10px;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
@@ -367,6 +384,21 @@ footer {
     color: #f16c6b;
 }
 
+.book-now-button {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #d42b15;
+    color: #419e16;
+    display: block;
+}
+
+.book-now-button:hover {
+    background-color: #4825e7;
+    color: #cdebc3;
+}
 
 
 /* Media queries 900px and down */
