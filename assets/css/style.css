@@ -180,6 +180,12 @@ hr {
     font-size: 280%;
 }
 
+#coursework {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
 #circle-container1 {
     width: 280px;
     height: 280px;
