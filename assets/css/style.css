@@ -186,30 +186,7 @@ hr {
     font-size: 280%;
 }
 
-#circle-container1 {
-    width: 280px;
-    height: 280px;
-    padding: 5px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-    float: left;
-}
-
-#circle-cover-bg1 {
-    background: url('../images/fruit-tart.jpg') no-repeat center center;
-    background-repeat: no-repeat;
-    background-size: 112% 112%;
-    background-position: center;
-    border-radius: 50%;
-    height: 280px;
-    width: 280px;
-    float: left;
-}
-
-#circle-container2 {
+#circle-container {
     width: 280px;
     height: 280px;
     padding: 5px;
@@ -220,7 +197,7 @@ hr {
     margin: 0 auto;
 }
 
-#circle-cover-bg2 {
+#circle-cover-bg {
     background: url('../images/fruit-tart.jpg') no-repeat center center;
     background-repeat: no-repeat;
     background-size: 112% 112%;
@@ -228,7 +205,10 @@ hr {
     border-radius: 50%;
     height: 280px;
     width: 280px;
+    float: left;
 }
+
+
 
 
 /* Courses */
