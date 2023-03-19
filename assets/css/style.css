@@ -104,8 +104,6 @@ h1, h2 {
     text-align: center;
     line-height: 50px;
 
-    width: 250px;
-    height: 250px;
 
     padding: 50px 50px 50px 50px;
 
@@ -114,9 +112,12 @@ h1, h2 {
     bottom: 30px;
     right: 150px;
 
-    position: absolute;
-
     border-radius: 50%;
+    width:62vw;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
 }
 
 /* baking-and-decorating */
