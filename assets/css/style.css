@@ -192,11 +192,9 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('../images/wedding-cake-topper.jpg') no-repeat center center;
-    object-fit: cover;
-    border-radius:50% 50% 50% 50%;
-    width:300px;
-    height:300px;
+    background: url('../images/angry-birds-topper.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
 
 /* event times */
