@@ -225,10 +225,10 @@ hr {
 }
 
 
-/* event times */
+/* Courses */
 
-#times {
-    background-image: url(../images/dublin-city.webp);
+#courses {
+    background-image: url(../images/angry-birds-sweets.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -236,7 +236,7 @@ hr {
     overflow: hidden;
 }
 
-#times div {
+#courses div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
@@ -248,7 +248,7 @@ hr {
     box-sizing: border-box;
 }
 
-#times h2 {
+#courses h2 {
     color: #fafafa;
 }
 
@@ -313,7 +313,7 @@ footer {
         padding: 0;
     }
 
-    #times > div {
+    #courses > div {
         width: 100%;
         clear: both;
         height: 150px;
