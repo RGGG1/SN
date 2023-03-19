@@ -100,9 +100,9 @@ h1, h2 {
     font-size: 50%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     text-align: center;
-    line-height: 100px;
+    line-height: 50px;
 
     width: 250px;
     height: 250px;
