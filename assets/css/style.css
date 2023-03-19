@@ -97,12 +97,12 @@ h1, h2 {
 }
 
 #cover-text {
-    font-size: 50%;
+    font-size: 130%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
-    line-height: 300px;
+    line-height: 100px;
 
     width: 300px;
     height: 300px;
