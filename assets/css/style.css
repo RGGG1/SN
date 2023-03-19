@@ -230,26 +230,7 @@ hr {
     float: left;
 }
 
-#courses {
-    background-image: url(../images/angry-birds-sweets.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}
 
-#courses div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
-    width: 20%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 1px solid white;
-    box-sizing: border-box;
-}
 
 #courses h2 {
     color: #fafafa;
@@ -379,21 +360,6 @@ footer {
     display: block;
 }
 
-.join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
-}
-
-.book-now-button {
-    margin-top: 20px;
-    border-radius: 10px;
-    padding: 30px 30px 30px 30px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #d42b15;
-    color: #419e16;
-    display: block;
-}
 
 .book-now-button:hover {
     background-color: #4825e7;
