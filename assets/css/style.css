@@ -223,6 +223,9 @@ hr {
 
 /* Courses */
 
+
+
+
 #course101 {
     width: 100%;
     padding-left: 10px;
@@ -230,6 +233,7 @@ hr {
     overflow: hidden;
     margin: 10px;
     float: left;
+    
 }
 
 
