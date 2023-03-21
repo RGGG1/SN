@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  color: white;
+  background-color: pink;
+
+}
+
+/* headings and logo */
+
+#h1 {
+  font-size: 16px;
+}
+
+#h2 {
+  font-size: 14px;
+}
+
+#h1, #h2 {
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color:white;
+}
+
+#logo {
+  float: left;
+  font-size: 200%;
+  margin-left: 30px;
+  color: white;
+}
+
+#menu {
+  font-size: 110%;
+  letter-spacing: 4px;  
+  
+}
+
+#menu, #logo {
+  line-height: 75px;
+  width: 100%;
+  position: relative;
+  
+}
+
+#menu li {
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+#menu a:hover {
+  border-bottom: 1px solid white;
+}
+
+.active {
+  border-bottom: 1px solid white;
+}
+
+
+
+.img1 {
+  width: 200px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  --_m: radial-gradient(#000 69%,#0000 70%) 84.5% fill/100%;
+  -webkit-mask-box-image: var(--_m);
+             mask-border: var(--_m);
+  clip-path: polygon(-41% 0,50% 91%, 141% 0);
+}
+
+@supports not (-webkit-mask-box-image: var(--_m)) { 
+  .img1 {
+   --_m:
+     radial-gradient(circle at 60% 63%,#000 64%,#0000 65%) top left /50% 50% no-repeat,
+     radial-gradient(circle at 40% 63%,#000 64%,#0000 65%) top right/50% 50% no-repeat,
+     linear-gradient(#000 0 0) bottom/100% 50% no-repeat;
+   -webkit-mask: var(--_m);
+           mask: var(--_m);
+  }
+}
+
+body {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: grid;
+  grid-auto-flow: column;
+  place-content: center;
+  gap: 30px;
+  filter: drop-shadow(0 0 10px #ff3e60)
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    width: max-content;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .typed {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 4s steps(48, end) forwards, blinking 1s infinite;
+  }
+    
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blinking {
+    0% {border-color: transparent}
+    50% {border-color: transparent}
+    100% {border-color: transparent}
+    
+  }
+  
+
+  /* footer */
+
+#footer {
+  height: 200px;
+  
+
+}
+
+.hr1 {
+  border-bottom: 1px solid white;
+  margin: 0 auto;
+  height: 200px;
+}
+
+.hr2 {
+  border-top: 1px solid white;
+  margin: 0 auto;
+  height: 200px;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks > li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 100%;
+  margin: 1%;
+  padding: 5%;
+  color: white;
+}
