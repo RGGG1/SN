@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:#252525;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+#courses-text {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    margin-left: 30px;
+    position: relative;
+}
+
+/* nav links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;  
+}
+
+#menu, #logo {
+    line-height: 75px;
+    
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/decorated-table.jpg') no-repeat center center;
+    background-size: cover;
+    
+
+    /* animates zoom effect on landing page */
+    animation: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image*/
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.25);
+    }
+}
+
+#cover-text {
+    font-size: 100%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 50px;
+
+    width: 250px;
+    height: 250px;
+
+    padding: 50px 50px 50px 50px;
+
+    background-color: rgba(5, 43, 0, 0.7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+
+    border-radius: 50%;
+    
+}
+
+/* baking-and-decorating */
+
+#baking-and-decorating {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    text-align: right;
+
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#coursework {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 280px;
+    height: 280px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/fruit-tart.jpg') no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: 112% 112%;
+    background-position: center;
+    border-radius: 50%;
+    height: 280px;
+    width: 280px;
+    float: left;
+}
+
+
+
+
+/* Courses */
+
+
+
+
+#course101 {
+    width: 100%;
+    padding-left: 10px;
+    text-align: left;
+    overflow: hidden;
+    margin: 10px;
+    float: left;
+    
+}
+
+
+
+#courses h2 {
+    color: #fafafa;
+}
+
+
+.book-button {
+    background-color: rgba(5, 43, 0, 0.7);
+    color: #fafafa;
+    border: 1px 1px 1px 1px solid #000000;
+    padding: 10px 10px 10px 10px;
+    font-family: Lato, sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+.book-button:hover {
+    background-color: rgba(21, 184, 0, 0.7);
+    border: 1px solid #000000;
+  }
+
+
+/* footer */
+
+footer {
+    height: 150px;
+
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    
+}
+
+#photos > img {
+    width: 100%;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1200px) {
+    #baking-and-decorating {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #courses > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* Form */
+
+.form-section {
+    clear: left;
+    background: url(../images/mini-cheesecakes.JPG) center;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+
+.book-now-button:hover {
+    background-color: #4825e7;
+    color: #cdebc3;
+}
+
+
+/* Media queries 900px and down */
+
+@media screen and (max-width: 1200px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    } 
+
+    #cover-text {
+        left: 0;
+    }
+
+    #baking-and-decorating {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #photos {
+        column-count: 3;
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+
+    }
+    
+}
