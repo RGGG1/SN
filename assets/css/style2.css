@@ -81,13 +81,13 @@ h1, h2 {
 
 #logo {
   float: left;
-  font-size: 250%;
+  font-size: 150%;
   margin-left: 30px;
   color: white;
 }
 
 #hamnav {
-  font-size: 100%;
+  font-size: 150%;
   letter-spacing: 4px;  
   
 }
@@ -121,7 +121,7 @@ h1, h2 {
   position: relative;
 }
 
-/* Fade in Text at top of page */
+/* Fade in text at top of page */
 #cover-text, #cover-text h2 {
   color: #fff;
   text-align: center;
@@ -177,6 +177,18 @@ img {
 
 }
 
+/* Heart arrows animation */
+
+.blink_me {
+  animation: blinker 5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 /* Intro and Description */
 
 #intro {
@@ -185,9 +197,20 @@ img {
   overflow: hidden;
   position: relative;
   text-align: center;
-  font-size: 20px;
+  font-size: 26px;
 }
 
+/* About Sweet Noni */
+
+
+div.center {
+  display: flex;
+  justify-content: center;
+  }
+
+  div p {
+    padding: 5px 25% 0% 25%;
+  }
 
 /* Book Now Button */
 
@@ -201,13 +224,31 @@ img {
   display: inline-block;
   font-size: 16px;
   border-radius: 10px;
+  animation: glowing 1300ms infinite;
 }
 
 
 
 .book-now-button:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: teal;
+}
+
+/* Book Now Button Glow Effect*/
+
+@keyframes glowing {
+  0% {
+    background-color: white;
+    box-shadow: 0 0 3px white;
+  }
+  50% {
+    background-color: white;
+    box-shadow: 0 0 10px white;
+  }
+  100% {
+    background-color: white;
+    box-shadow: 0 0 3px white;
+  }
 }
 
 
