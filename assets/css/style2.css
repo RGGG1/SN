@@ -10,12 +10,55 @@ body {
   font-family: Lato, sans-serif;
   font-weight: 300;
   color: white;
-  background-color: rgb(138, 0, 23);
+  background-color: teal;
 
 }
 
-/* headings and logo */
+/* Hamburger Menu */
 
+#hamnav {
+  width: 100%;
+  background: teal;
+}
+
+/* (B) HORIZONTAL MENU ITEMS */
+#hamitems { display: flex; }
+#hamitems a {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+#hamitems a:hover { background: teal; }
+
+#hamnav label, #hamburger { display: none; }
+
+/* Tablet / Mobile */
+@media screen and (max-width: 768px){
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid teal;
+  }
+ 
+  #hamnav label { 
+    display: inline-block; 
+    color: white;
+    background: teal;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; }
+}
+
+
+/* headings and logo */
   
 h1 {
   font-size: 30px;
@@ -25,7 +68,8 @@ h2 {
   font-size: 28px;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 10px;
 }
 
 h1, h2 {
@@ -42,35 +86,32 @@ h1, h2 {
   color: white;
 }
 
-#menu {
-  font-size: 140%;
+#hamnav {
+  font-size: 100%;
   letter-spacing: 4px;  
   
 }
 
-#menu, #logo {
+#hamnav, #logo {
   line-height: 75px;  
 }
 
-#menu li {
+#hamnav li {
   float: right;
   list-style-type: none;
   margin-right: 30px;
 }
 
-#menu a {
+#hamnav a {
   text-decoration: none;
   color: inherit;
 
 }
 
-#menu a:hover {
+#hamnav a:hover {
   border-bottom: 1px solid white;
 }
 
-.active {
-  border-bottom: 1px solid white;
-}
 
 
 #hero-outer {
@@ -113,13 +154,13 @@ h1, h2 {
 
 img {
   float: left;
-  width:  30%;
+  width: 50%;
   max-width: 300px;
-  min-width: 300px;
-  height: 100%;
+  height: auto;
   object-fit: fill;
   margin: 5px;
   border-radius: 5%;
+  
   
 }
 
@@ -127,7 +168,7 @@ img {
 /* Heart arrows */
 
 #heart-arrows {
-  height: 75px;
+  height: 100px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -145,7 +186,6 @@ img {
   position: relative;
   text-align: center;
   font-size: 20px;
-  padding-bottom: 25px;
 }
 
 
@@ -154,7 +194,7 @@ img {
 .book-now-button {
   background-color: white;
   border: none;
-  color: rgb(138, 0, 23);
+  color: teal;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -177,6 +217,9 @@ img {
   height: 100px;
 }
 
+#footer h2 {
+  text-decoration: underline;
+}
 
 .social-networks {
   text-align: center;
@@ -191,6 +234,38 @@ img {
 .social-networks i {
   font-size: 200%;
   margin: 1%;
-  padding: 5%;
+  padding: 1%;
   color: white;
+}
+
+
+/* Media queries 900px and down */
+
+@media screen and (max-width: 1200px) {
+  #menu {
+      clear: left;
+      float: left;
+      margin-left: 30px;
+      margin-bottom: 20px;
+      line-height: 25px;
+  } 
+
+  #cover-text {
+      left: 0;
+  }
+
+
+  #cakes {
+    column-count: 2;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  img {
+    max-width: 100px;
+    height: auto;
+
+  }
+  
 }
