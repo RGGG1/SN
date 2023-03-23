@@ -150,6 +150,7 @@ h1, h2 {
   position: relative;
   height: 300px;
   width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .row:after {
@@ -161,8 +162,8 @@ h1, h2 {
 .column img {
   float: left;
   width: 50%;
-  max-width: 300px;
-  height: auto;
+  width: 300px;
+  height: 300px;
   object-fit: fill;
   margin: 5px;
   border-radius: 5%;
@@ -171,18 +172,9 @@ h1, h2 {
 
 }
 
-#cakes {
-  height: 300px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  margin: 5px;
-  float: left;
 
-}
 
+/* About Sweet Noni */
 
 img {
   float: left;
@@ -192,8 +184,6 @@ img {
   object-fit: fill;
   margin: 5px;
   border-radius: 5%;
-  
-  
 }
 
 
@@ -328,7 +318,7 @@ div.center {
   }
 
 
-  #cakes {
+  .column {
     column-count: 2;
   }
 
@@ -336,9 +326,30 @@ div.center {
 
 @media screen and (max-width: 800px) {
   img {
-    max-width: 100px;
+    width: 75%;
     height: auto;
 
+  }
+
+  .column img {
+    width: 100%;
+    height: auto;
+
+  }
+  
+}
+
+@media screen and (max-width: 900px) {
+  .column img {
+    float: left;
+    width: 200px;
+    height: auto;
+    object-fit: fill;
+    margin: 5px;
+    border-radius: 5%;
+    height: 300px;
+    width: 100%;
+  
   }
   
 }
