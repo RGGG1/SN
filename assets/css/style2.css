@@ -146,10 +146,16 @@ h1, h2 {
   justify-content: center;
 }
 
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .column img {
   float: left;
-  max-width: 30%;
   height: auto;
   object-fit: fill;
   margin: 5px;
@@ -308,24 +314,25 @@ div.center {
 
 }
 
-/* Responsive layout - Mobile */
+/* Responsive layout - Mobile - Adjust Fade in text at top of page */
 @media (max-width: 800px) {
   
-  
-  .column img {
-    float: left;
-    max-width: 100%;
-    height: 250px;
-    object-fit: fill;
-    margin: 5px auto;
-    clear: both;
-    border-radius: 5%;
-  }
-
   #cover-text, #cover-text h2 {
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
   }
   
+
+  .column img {
+    float: left;
+    height: auto;
+    object-fit: fill;
+    margin: 5px;
+    border-radius: 5%;
+    max-width: 300px;
+    max-height: 300px;
+    width: 125px;
+    height: 125px;
+  }
   
 }
