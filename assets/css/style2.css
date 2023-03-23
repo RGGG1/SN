@@ -30,10 +30,15 @@ body {
   color: white;
   text-decoration: none;
   text-align: center;
+  
 }
 #hamitems a:hover { background: teal; }
 
 #hamnav label, #hamburger { display: none; }
+
+
+/* Active Nav- Need to add it in*/
+
 
 /* Tablet / Mobile */
 @media screen and (max-width: 768px){
