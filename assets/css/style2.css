@@ -128,7 +128,7 @@ h1, h2 {
   text-align: center;
   animation: fadeIn 5s;
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 24px;
   padding-top: 0%;
 }
 
@@ -241,6 +241,7 @@ div.center {
   font-size: 16px;
   border-radius: 10px;
   animation: glowing 1300ms infinite;
+  margin-top: 25px;
 }
 
 
@@ -255,7 +256,8 @@ div.center {
 @keyframes glowing {
   0% {
     background-color: white;
-    box-shadow: 0 0 3px white;
+    box-shadow: 0 0 3px white;    
+    
   }
   50% {
     background-color: white;
@@ -270,18 +272,19 @@ div.center {
 
 /* Social icons */
 
+
 #footer {
   height: 100px;
+  width: auto;
+  padding: 50px;
 }
 
-#footer h2 {
-  text-decoration: underline;
-}
 
 .social-networks {
   text-align: center;
   margin: 0 auto;
   height: 100px;
+  width: 800px;
 }
 
 .social-networks > li {
@@ -289,8 +292,8 @@ div.center {
 }
 
 .social-networks i {
-  font-size: 200%;
-  margin: 1%;
+  font-size: 100%;
+  margin: 5px;
   padding: 1%;
   color: white;
 }
@@ -317,11 +320,16 @@ div.center {
 /* Responsive layout - Mobile - Adjust Fade in text at top of page */
 @media (max-width: 800px) {
   
+
+
   #cover-text, #cover-text h2 {
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
   }
   
+.column {
+  width: 400px;
+}
 
   .column img {
     float: left;
@@ -331,8 +339,8 @@ div.center {
     border-radius: 5%;
     max-width: 300px;
     max-height: 300px;
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
   }
   
 }

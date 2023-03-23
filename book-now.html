@@ -7,40 +7,32 @@
     <meta name="description" content="Learn baking and cake decoration with Sweet Noni">
     <meta name="keywords" content="baking classes, cake decoration classes, cake toppers, sugarpaste, ireland, dublin">
     
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Sweet Noni Baking and Cake Decoration Courses</title>
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <title>Baking and Cake Decoration Courses with Sweet Noni</title>
 
 </head>
 
-<!--Header and Nav-->
-
+<!--Header and Nav and Hamburger-->
 <body>
     <header>
-        <a href="index.html">
-            <h1 id="logo">Sweet Noni Classes</h1>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="book-now.html" class="active">Book Now</a>
-                </li>
-                
-                <li>
-                    <a href="courses.html">Courses</a>
-                </li>
-                
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-            </ul>
-        </nav>
+    <nav id="hamnav">
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger"/>
+    <div id="hamitems">
+        <h1 id="logo">Sweet Noni Classes</h1>
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="book-now.html">Book Now</a>
+        
+    </div>
+    </nav>
     </header>
 
 <!--Book Now Form-->
 
     <section class="form-section">
         <form method="post" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <h2>Book your course and start learning today <i class="fa-solid fa-cake-candles"></i></h2>
+            <h2><i class="fa-solid fa-cake-candles"></i>  Book your course and start learning today  <i class="fa-solid fa-cake-candles"></i></h2>
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="first_name" class="text-input" required>
             <label for="lname">Last Name</label>
@@ -60,26 +52,25 @@
         
     </section>
     
-<!--Footer and Socials-->
+<!--Footer-->
+<footer id="footer">
+    <ul class="social-networks">
+        <li>
+            <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook Page (opens in a new tab)"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </li>
+        <li>
+            <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter Page (opens in a new tab)"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </li>
+        <li>
+            <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube Page (opens in a new tab)"> <i class="fa fa-youtube" aria-hidden="true"></i></a>
+        </li>
+        <li>
+            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram Page (opens in a new tab)"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </li>
+    </ul>
+</footer>
 
-    <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook Page (opens in a new tab)"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter Page (opens in a new tab)"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube Page (opens in a new tab)"> <i class="fa fa-youtube" aria-hidden="true"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram Page (opens in a new tab)"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </li>
-        </ul>
-    </footer>
-
-    <!--font awesome script-->
-    <script src="https://kit.fontawesome.com/1f271c2fd4.js" crossorigin="anonymous"></script>
+<!--font awesome script-->
+<script src="https://kit.fontawesome.com/1f271c2fd4.js" crossorigin="anonymous"></script>
 </body>
 </html>
