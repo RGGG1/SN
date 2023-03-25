@@ -57,7 +57,7 @@ At the bottom of the home page we show a Book Now button. The button is designed
 Our footer is centered at the bottom of the page. We display icons linking to Facebook, Twitter, Youtube, Instagram.
 
 
-<strong>Courses Page</strong><br> 
+<strong>Courses Page</strong> 
 We display all available courses here.
 Each course is clearly separated into its own box effect. Refer to our colour scheme above for colour guide.
 Each course shows: Class details, date, time, location and cost.
