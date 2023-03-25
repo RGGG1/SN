@@ -127,6 +127,13 @@ h1, h2 {
   position: relative;
 }
 
+
+/* Active Nav */
+
+.active {
+  border-bottom: 1px solid white;
+}
+
 /* Fade in text at top of page */
 #cover-text, #cover-text h2 {
   color: #fff;
@@ -317,18 +324,15 @@ div.center {
 /* Social icons */
 
 
-#footer {
-  height: 100px;
-  width: auto;
-  padding: 50px;
-  margin: auto;
-}
+footer {
+  height: 150px;
+  width: 600px;
+  margin: 25px;
 
+}
 
 .social-networks {
   text-align: center;
-  height: 100px;
-  margin: auto;
 }
 
 .social-networks > li {
@@ -336,9 +340,9 @@ div.center {
 }
 
 .social-networks i {
-  font-size: 100%;
-  margin: 5px;
-  padding: 1%;
+  font-size: 150%;
+  margin: 1%;
+  padding: 5%;
   color: white;
 }
 
@@ -391,7 +395,7 @@ div.center {
     font-size: 14px;
   }
 
-  #intro h2 {
+  h2 {
     font-size: 16px;
   }
 
