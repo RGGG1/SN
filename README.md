@@ -107,6 +107,8 @@ The site is deployed to Github pages, accessible via: https://rggg1.github.io/SN
 
 To deploy to Github pages, navigate to Settings > Pages > Select 'main' for the master branch, then wait a few moments for the live URL to be generated.<br>
 
+The source files are available here: https://github.com/RGGG1/SN
+
 ------
 ## Credits and Resources
 I used the following resources to find solutions to various code problems I encountered:<br>
