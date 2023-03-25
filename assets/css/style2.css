@@ -178,7 +178,7 @@ h1, h2 {
 }
 
 /* About Sweet Noni img*/
-img {
+center img {
   float: left;
   width: 50%;
   max-width: 300px;
@@ -386,19 +386,7 @@ footer {
   font-size: 14px;
   text-align: center;
   }
-  
-.column {
-  width: 400px;
-}
 
-.column img {
-  float: left;
-  object-fit: fill;
-  margin: 5px;
-  border-radius: 5%;
-  width: 150px;
-  height: 150px;
-}
   
 #intro {
   font-size: 14px;
