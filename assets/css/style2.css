@@ -14,8 +14,8 @@ body {
 
 }
 
-/* Hamburger Menu */
 
+/* Hamburger Menu */
 #hamnav {
   width: 100%;
   height: auto;
@@ -24,6 +24,7 @@ body {
 
 /* Menu items*/
 #hamitems { display: flex; }
+
 #hamitems a {
   flex-grow: 1;
   flex-basis: 0;
@@ -33,12 +34,12 @@ body {
   text-align: center;
   
 }
+
 #hamitems a:hover { background: teal; }
 
 #hamnav label, #hamburger { display: none; }
 
-
-/* Tablet / Mobile */
+/* Hamburger Menu Responsiveness */
 @media screen and (max-width: 769px){
   #hamitems a {
     box-sizing: border-box;
@@ -57,13 +58,11 @@ body {
   }
 
   #hamitems { display: none; }
+
   #hamnav input:checked ~ #hamitems { display: block; }
 }
 
-
-
-/* headings and logo */
-  
+/* Headings and logo */
 h1 {
   font-size: 28px;
 }
@@ -93,7 +92,7 @@ h1, h2 {
   width: 100%;
   position: relative;
 
-  }
+}
 
 #hamnav {
   font-size: 150%;
@@ -120,23 +119,18 @@ h1, h2 {
   text-decoration: none;
   color: inherit;
   text-align: center;
-
 }
 
 #hamnav a:hover {
   border-bottom: 1px solid white;
 }
 
-
 /* Active Nav */
-
 .active {
   border-bottom: 1px solid white;
 }
 
-
 /* Fade in text at top of page */
-
 #hero-outer {
   height: auto;
   width: 100%;
@@ -163,7 +157,6 @@ h1, h2 {
 
 
 /* Top Gallery */
-
 .gallery-section {
   height: auto;
   width: 50%;
@@ -184,10 +177,7 @@ h1, h2 {
   justify-content: center;
 }
 
-
-
-/* About Sweet Noni */
-
+/* About Sweet Noni img*/
 img {
   float: left;
   width: 50%;
@@ -198,9 +188,7 @@ img {
   border-radius: 5%;  
 }
 
-
 /* Heart arrows */
-
 #heart-arrows {
   height: 100px;
   width: 100%;
@@ -208,11 +196,9 @@ img {
   position: relative;
   text-align: center;
   padding-top: 50px;
-
 }
 
 /* Heart arrows animation */
-
 .blink_me {
   animation: blinker 5s linear infinite;
 }
@@ -224,7 +210,6 @@ img {
 }
 
 /* Intro and Description */
-
 #intro {
   height: auto;
   width: 100%;
@@ -235,19 +220,16 @@ img {
 }
 
 /* About Sweet Noni */
-
-
 div.center {
   display: flex;
   justify-content: center;
   }
 
-  div p {
+div p {
     padding: 5px 25% 0% 25%;
   }
 
 /* Book Now Button and Register Interest Button */
-
 .book-now-button, .register-interest-button {
   background-color: white;
   border: none;
@@ -263,15 +245,12 @@ div.center {
   margin-bottom: 25px;
 }
 
-
-
 .book-now-button:hover, .register-interest-button {
   background-color: white;
   color: teal;
 }
 
-/* Book Now Button Glow Effect*/
-
+/* Book Now Button Glow Effect */
 @keyframes glowing {
   0% {
     background-color: white;
@@ -289,7 +268,6 @@ div.center {
 }
 
 /* Courses Boxes*/
-
 #courses {
   width: 600px;
   overflow: hidden;
@@ -299,7 +277,6 @@ div.center {
   width: 60%;
   margin: auto;
   padding: 25px;
-  
 }
 
 #courses div {
@@ -314,12 +291,9 @@ div.center {
   box-sizing: border-box;
   border-radius: 2.5%;
   margin: auto;
-  
 }
 
-
 /* Booking Form */
-
 .form-section {
   height: auto;
   width: 50%;
@@ -329,7 +303,6 @@ div.center {
   margin-top: 50px;
   padding: 50px 25px 0px 25px;
 }
-
 
 .signup-form {
   color: #fff;
@@ -361,18 +334,13 @@ div.center {
   border-radius: 2px;
 }
 
-
-
 /* Footer and Social icons */
-
-
 footer {
   height: auto;
   width: 100%;
   overflow: hidden;
   position: relative;
   text-align: center;
-
 }
 
 .social-networks {
@@ -395,9 +363,7 @@ footer {
   color: white;
 }
 
-
 /* Media queries 769px and down */
-
 @media screen and (max-width: 769px) {
   #menu {
       clear: left;
@@ -464,6 +430,3 @@ h2 {
 }
 
 }
-
-
-
