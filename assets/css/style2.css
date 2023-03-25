@@ -164,32 +164,24 @@ h1, h2 {
 
 /* Top Gallery */
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 60%;
-  margin: 0% 20% 0% 20%;
-}
-
-.column {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.column img {
-  float: left;
+.gallery-section {
   height: auto;
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.gallery-section img {
+  float: left;
   object-fit: fill;
   margin: 5px;
   border-radius: 5%;
-  max-width: 300px;
-  max-height: 300px;
-  width: 100%;
+  width: 300px;
   height: 300px;
+  display: inline-block;
+  justify-content: center;
 }
 
 
@@ -433,36 +425,43 @@ footer {
   width: 400px;
 }
 
-  .column img {
-    float: left;
-    object-fit: fill;
-    margin: 5px;
-    border-radius: 5%;
-    max-width: 300px;
-    max-height: 300px;
-    width: 150px;
-    height: 150px;
-  }
+.column img {
+  float: left;
+  object-fit: fill;
+  margin: 5px;
+  border-radius: 5%;
+  width: 150px;
+  height: 150px;
+}
   
-  #intro {
-    font-size: 14px;
-  }
+#intro {
+  font-size: 14px;
+}
 
-  h2 {
-    font-size: 16px;
-  }
+h2 {
+  font-size: 16px;
+}
 
-  .form-section {
-    height: auto;
-    width: 75%;
-    overflow: hidden;
-    position: relative;
-    margin: auto;
-    margin-top: 50px;
-    padding: 50px 25px 0px 25px;
-  }
+.form-section {
+  height: auto;
+  width: 75%;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px 25px 0px 25px;
+}
   
+#courses {
+  width: 80%;  
+}
 
+.gallery-section img {
+  width: 125px;
+  height: 125px;
+  margin: 0% 20% 0% 20%;
+  margin-bottom: 5px;
+}
 
 }
 
