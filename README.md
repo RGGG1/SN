@@ -63,7 +63,7 @@ Each course is clearly separated into its own box effect. Refer to our colour sc
 Each course shows: Class details, date, time, location and cost.
 We also show a Book Now button at the bottom of each available course, with the same glowing effect as the Book Now Button on the home page.
 
-<strong>Book Now</strong>: 
+Book Now: 
 The Book Now page offers a simple for for the user to fill out, with the following required fields: First name, surname, email address and radio buttons to indicate the course(s) they are interested in. There is a 'Send' button which then sends the form to Giovana.
 
 ------
