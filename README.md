@@ -1,42 +1,44 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Sweet Noni Logo](/assets/images/logosweetnoni.png)
 
-Welcome RGGG1 G,
+Welcome to the read me for Sweet Noni Classes.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is the Read Me document for Sweet Noni, outlining the aim of the website and its functionality throughout.
+------
+## Core Aims
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Sweet Noni Classes is intended to be a site where Giovana Giannoni, proprieter of Sweet Noni, can advertise baking and cake decoration classes, as well as display some of her work.
 
-## Gitpod Reminders
+The core aim of the site is to make it easy for visitors to peruse some of Giovana's work, view upcoming course details, and express interest in joining one of those courses via the use of a Book Now form. The site is targeted towards people looking to improve their baking and cake decoration skills, in Dublin, Ireland.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The site is fully responsive across all devices and maintains good resizing and positioning throughout. (Viewable here: https://ui.dev/amiresponsive?url=https://rggg1.github.io/SN/index.html)
 
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
 ------
+## Features
 
-## Release History
+Navigation
+At the top of the page we feature a navigation composed of the site logo (positioned left) and three page links: Home, Courses, Book Now (positioned right). Navigation is clear and easy to understand. The active page is highlighted with a white underline effect. Users can also click the logo to return to the home page too (index.html).
+
+The navigation is responsive in that it reduces itself to a hamburger menu on smaller devices. Users can click the hamburger to expand the menu again.
+
+
+Site Fonts
+We use Lato as our primary font, and sans-serif as our backup, throughout the site.
+
+Header
+The header shows the site title and also includes a selection of keywords related to baking and cake decoration in Dublin, Ireland. It is clear who the site is targeted towards.
+
+Colors
+Background: teal
+Text: white
+Forms and course boxes: rgba(60, 60, 60, 0.6)
+
+Top Gallery
+We show a selection of six photos of Giovana's cakes. On larger screens it should appear as three columns, two rows. As devices shrink, the columns / rows respond accordingly.
+
+
+
+
 
 We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
