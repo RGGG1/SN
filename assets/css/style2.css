@@ -249,6 +249,7 @@ div.center {
   border-radius: 10px;
   animation: glowing 1300ms infinite;
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 
@@ -276,6 +277,42 @@ div.center {
   }
 }
 
+/* Courses Boxes*/
+
+#courses {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 600px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  padding: 25px;
+  
+}
+
+#courses div {
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, .6);
+  width: 100%;
+
+  float: left;
+  padding: 10px 0 0 10px;
+  text-align: center;
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 5%;
+  margin: auto;
+  
+}
+
+#courses h2 {
+  color: #fafafa;
+}
+
 
 /* Social icons */
 
@@ -284,14 +321,14 @@ div.center {
   height: 100px;
   width: auto;
   padding: 50px;
+  margin: auto;
 }
 
 
 .social-networks {
   text-align: center;
-  margin: 0 auto;
   height: 100px;
-  width: 800px;
+  margin: auto;
 }
 
 .social-networks > li {
@@ -330,9 +367,9 @@ div.center {
 
 
   #cover-text, #cover-text h2 {
-    font-size: 10px;
+    font-size: 14px;
     text-align: center;
-  }
+      }
   
 .column {
   width: 400px;
@@ -350,4 +387,14 @@ div.center {
     height: 150px;
   }
   
+  #intro {
+    font-size: 14px;
+  }
+
+  #intro h2 {
+    font-size: 16px;
+  }
+
+
+
 }
