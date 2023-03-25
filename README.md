@@ -7,11 +7,11 @@ This documents outlines the goals of the website and its functionality throughou
 ------
 ## Core Aims
 
-Sweet Noni Classes is intended to be a site where Giovana Giannoni, proprieter of Sweet Noni, can advertise baking and cake decoration classes, as well as display some of her work.
+Sweet Noni Classes is intended to be a site where Giovana Giannoni, proprietor of Sweet Noni, can advertise baking and cake decoration classes, as well as display some of her work.
 
 The core aim of the site is to make it easy for visitors to peruse some of Giovana's work, view upcoming course details, and express interest in joining one of those courses via the use of a Book Now form. The site is targeted towards people looking to improve their baking and cake decoration skills, in Dublin, Ireland.
 
-[Am I Responsive](/assets/images/Responsive.JPG)
+![Am I Responsive](/assets/images/Responsive.JPG)
 
 The site is fully responsive across all devices and maintains good resizing and positioning throughout.
 
@@ -79,7 +79,7 @@ I have tested the site across multiple devices of different sizes, and a variety
 
 ------
 ## Testing
-[Lighthouse Score](/assets/images/lighthouse-score.png)
+![Lighthouse Score](/assets/images/lighthouse-score.png)
 <strong>HTML</strong><br>No errors returned when passed through W3C validator.<br>
 <strong>CSS</strong><br> No errors returned when passed through W3C validator.<br>
 <strong>Accessibility</strong><br> We used google chrome's lighthouse tool and ranked as follows:<br>
