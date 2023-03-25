@@ -324,14 +324,6 @@ div p {
   border-radius: 2px;
 }
 
-<script>
-    $(document).ready(function(){
-        $('.form').on('submit', function(){
-            alert('Your details were successfully received.');
-        });
-    });
-</script>
-
 /* Footer and Social icons */
 footer {
   height: auto;
