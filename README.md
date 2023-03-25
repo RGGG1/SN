@@ -67,6 +67,9 @@ We also show a Book Now button at the bottom of each available course, with the 
 <strong>Book Now</strong>: 
 The Book Now page offers a simple for for the user to fill out, with the following required fields: First name, surname, email address and radio buttons to indicate the course(s) they are interested in. There is a 'Send' button which then sends the form to Giovana.
 
+<strong>Success Page</strong>:
+Users are directed to a success page upon completing the Book Now form. This page is not shown within the visible navigation. We show a link on the success page to take the user back to the home page. Note: This success page is just a placeholder for now, as we don't have a database set up to collect form submissions, so this page just simulates success for the user.
+
 ------
 ## Testing
 
