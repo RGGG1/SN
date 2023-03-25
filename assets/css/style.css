@@ -219,6 +219,17 @@ div p {
     padding: 5px 25% 0% 25%;
   }
 
+.center img {
+    object-fit: fill;
+    border-radius: 5%;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+  }
+
 /* Book Now Button and Register Interest Button */
 .book-now-button, .register-interest-button {
   background-color: white;
@@ -401,8 +412,8 @@ h2 {
 }
 
 .gallery-section img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   margin-left: 10%;
   margin-right: 10%;
 }
