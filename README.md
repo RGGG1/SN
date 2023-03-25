@@ -63,7 +63,7 @@ Each course is clearly separated into its own box effect. Refer to our colour sc
 Each course shows: Class details, date, time, location and cost.
 We also show a Book Now button at the bottom of each available course, with the same glowing effect as the Book Now Button on the home page.
 
-Book Now: 
+<strong>Book Now</strong>: 
 The Book Now page offers a simple for for the user to fill out, with the following required fields: First name, surname, email address and radio buttons to indicate the course(s) they are interested in. There is a 'Send' button which then sends the form to Giovana.
 
 ------
@@ -72,16 +72,21 @@ The Book Now page offers a simple for for the user to fill out, with the followi
 I have tested the site across multiple devices of different sizes, and a variety of popular browsers. The site performs well across all.
 
 <strong>Responsiveness</strong><br> Confirmed across multiple devices.<br>
+
 <strong>Navigation and Links</strong><br> All are functional and easy to understand.<br>
+
 <strong>Form</strong><br>The form is working in that a user cannot complete the form without filling in the required fields.<br>
 
 <strong>Unfixed bugs</strong><br> I am having a problem displaying two columns on mobile. Currently it shrinks to one column, which is not ideal for gallery display.<br>
 
 ------
 ## Testing
-![Lighthouse Score](/assets/images/lighthouse-score.png)
+![Lighthouse Score](/assets/images/lighthouse-score.png)<br>
+
 <strong>HTML</strong><br>No errors returned when passed through W3C validator.<br>
+
 <strong>CSS</strong><br> No errors returned when passed through W3C validator.<br>
+
 <strong>Accessibility</strong><br> We used google chrome's lighthouse tool and ranked as follows:<br>
     <strong>Performance:</strong> 52/100 (The main issue is the heaviness of how we are serving our high quality images)<br>
     <strong>Accessibility:</strong> 100/100<br>
