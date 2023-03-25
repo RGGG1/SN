@@ -94,6 +94,9 @@ I have tested the site across multiple devices of different sizes, and a variety
     <strong>Best Practices:</strong> 92/100<br>
     <strong>SEO:</strong> 100/100<br>
 
+<strong>Top Gallery - Bug</strong><br>
+Note: I ran into a probelm with the responsiveness of images which have had their width and height adjusted to uniform dimensions. I need to investigage further how to manage this better so that we can have two columns of equal height / width images.
+
 ------
 ## Deployment
 
