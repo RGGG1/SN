@@ -44,8 +44,9 @@ We have a small call to attention at the top of the site, emphasizing the theme 
 
 Flashing Hearts Section Dividers: We use three hearts, in descending sizes, one below the other to indicate the movement between sections of the homepage. We use a flashing effect on the hearts so they fade in and out continually.
 
-<strong>Top Gallery Section</strong><br>  
+<strong>Top Gallery Section</strong><br>
 We show a selection of six photos of Giovana's cakes. On larger screens it should appear as three columns, two rows. As devices shrink, the columns / rows respond accordingly.
+Note: I ran into a probelm with the responsiveness of images which have had their width and height adjusted to uniform dimensions, I need to investigage further how to manage this better so that we can have two columns of equal height / width images.
 
 <strong>Intro and Description Section</strong><br> 
 This section gives a brief background on Giovana and her business. It also includes a picture of her in her kitchen. 
