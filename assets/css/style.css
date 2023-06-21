@@ -335,6 +335,11 @@ div p {
   border-radius: 2px;
 }
 
+#successText {
+    color:white;
+    outline: none;
+}
+
 /* Footer and Social icons */
 footer {
   height: auto;
@@ -429,3 +434,6 @@ h2 {
   justify-content: center;  
 }
 }
+
+/* success page text*/
+

@@ -16,6 +16,15 @@ The core aim of the site is to make it easy for visitors to peruse some of Giova
 The site is fully responsive across all devices and maintains good resizing and positioning throughout.
 
 ------
+
+## User Journey / User Story
+The aim of the user interacting with this site is:
+- they will see a variety of interesting cakes on the homepage and some information about Sweet Noni
+- they will click through to the Courses section if they wish to find out more information about how to learn to design cakes like this
+- they will fill in the booking form if they are interested in finding out more information
+
+
+
 ## Features
 
 <strong>Navigation</strong><br>
