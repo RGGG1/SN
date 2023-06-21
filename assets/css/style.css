@@ -285,7 +285,6 @@ div p {
   background-color: rgba(60, 60, 60, 0.6);
   width: 100%;
 
-  float: left;
   padding: 10px 0 0 10px;
   text-align: center;
   border: 2px solid white;
@@ -419,12 +418,9 @@ h2 {
 .gallery-section img {
   width: 175px;
   height: 175px;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .center img {
-  float: left;
   object-fit: fill;
   margin: 5px;
   border-radius: 5%;
